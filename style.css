@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 320px;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+
+}
+
+.k-key {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornsilk;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.active {
+    background: lightgreen;
+}
+
+.textarea {
+    width: 60%;
+    height: 200px;
+}
